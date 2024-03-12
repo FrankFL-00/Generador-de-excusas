@@ -16,7 +16,7 @@ window.onload = function() {
     "right on time",
     "when I finished",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
   ];
 
   function Palabrarandom(array) {
@@ -29,10 +29,10 @@ window.onload = function() {
   let PalabraWhat = Palabrarandom(what);
   let PalabraWhen = Palabrarandom(when);
 
-  let sentence =
+  let Oraciondeexcusa =
     PalabraWho + " " + PalabraAction + " " + PalabraWhat + " " + PalabraWhen;
 
   let Nuevaexcusa = document.getElementById("excuse");
 
-  Nuevaexcusa.innerHTML = sentence;
+  Nuevaexcusa.innerHTML = Oraciondeexcusa;
 };
